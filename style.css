@@ -32,6 +32,9 @@ body {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+.container h3 {
+  display: none;
+}
 .date_style {
   margin-bottom: 15px;
   margin-left: -28%;
@@ -56,4 +59,166 @@ body {
 .text p {
   font-size: medium;
   color: white;
+}
+
+.btn-container {
+  margin-top: 10px;
+}
+.btn {
+  background-color: #a2b38b;
+  padding: 13px 30px;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-size: medium;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1326px) {
+  .container h2 {
+    padding: 10px 15px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  .container {
+    border-radius: 4px;
+    height: 60%;
+  }
+  .date_style {
+    margin-bottom: 13px;
+    margin-left: -27%;
+  }
+  .date_style input {
+    width: 170%;
+    padding: 13px 25px;
+  }
+  .text {
+    background-color: #f3aa60;
+    width: 95%;
+    border-radius: 25px;
+    padding: 15px 40px;
+  }
+  .text p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .btn-container {
+    margin-top: 10px;
+  }
+  .btn {
+    background-color: #a2b38b;
+    padding: 12px 25px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container h2 {
+    display: none;
+  }
+  .container h3 {
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px 0;
+    padding: 10px 15px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  .container {
+    border-radius: 4px;
+    height: 60%;
+  }
+  .date_style {
+    margin-bottom: 13px;
+    margin-left: -3%;
+  }
+  .date_style input {
+    padding: 13px 25px;
+    width: auto;
+  }
+  .text {
+    background-color: #f3aa60;
+    width: 85%;
+    border-radius: 5px;
+    padding: 13px 30px;
+  }
+  .text p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .btn-container {
+    margin-top: 10px;
+  }
+  .btn {
+    background-color: #a2b38b;
+    padding: 11px 23px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .container {
+    border-radius: 4px;
+    height: 50%;
+    width: 80%;
+  }
+  .container h2 {
+    display: none;
+  }
+  .container h3 {
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px 0;
+    padding: 8px 13px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  .container {
+    border-radius: 4px;
+    height: 60%;
+  }
+  .date_style {
+    margin-bottom: 13px;
+    margin-left: -3%;
+  }
+  .date_style input {
+    padding: 13px 25px;
+    width: auto;
+  }
+  .text {
+    background-color: #f3aa60;
+    width: 85%;
+    border-radius: 5px;
+    padding: 13px 30px;
+  }
+  .text p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .btn-container {
+    margin-top: 10px;
+  }
+  .btn {
+    background-color: #a2b38b;
+    padding: 11px 23px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+  }
 }

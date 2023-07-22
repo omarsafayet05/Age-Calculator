@@ -12,3 +12,8 @@ inputDate.addEventListener("change", () => {
 
   pElement.innerText = `Your age ${years} years ${months} months ${days} days`;
 });
+
+function myFunction() {
+  inputDate.value = "";
+  pElement.innerText = "Your age ___ years ___ months ___ days.";
+}
