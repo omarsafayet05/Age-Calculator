@@ -65,6 +65,7 @@
   .date_style input {
     padding: 13px 25px;
     width: auto;
+    border-radius: 5px;
   }
   .text {
     background-color: #f3aa60;
@@ -118,7 +119,7 @@
     margin-left: -3%;
   }
   .date_style input {
-    padding: 15px 35px;
+    padding: 13px 35px;
     width: auto;
     border-radius: 5px;
   }
